@@ -248,7 +248,7 @@
           },
           {
             "name": "SurfaceArea",
-            "comment": "표면지역",
+            "comment": "표면적",
             "dataType": "DECIMAL",
             "default": "",
             "option": {
@@ -271,7 +271,7 @@
           },
           {
             "name": "IndepYear",
-            "comment": "인뎁년",
+            "comment": "독립연도",
             "dataType": "SMALLINT",
             "default": "",
             "option": {
@@ -504,7 +504,7 @@
           "active": false,
           "left": 248.6,
           "top": 267,
-          "zIndex": 209,
+          "zIndex": 223,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -563,7 +563,7 @@
           },
           {
             "name": "IsOffcial",
-            "comment": "이스오피셜",
+            "comment": "공식언어",
             "dataType": "ENUM",
             "default": "",
             "option": {
@@ -578,7 +578,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 67,
+              "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -612,7 +612,7 @@
           "active": false,
           "left": 774.8,
           "top": 227.2,
-          "zIndex": 215,
+          "zIndex": 218,
           "widthName": 125.30322265625,
           "widthComment": 60
         },
