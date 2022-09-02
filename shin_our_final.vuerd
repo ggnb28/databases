@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -431.6458196121312,
-    "scrollLeft": -477.80765407391806,
-    "zoomLevel": 0.6,
+    "scrollTop": -196.44581961213115,
+    "scrollLeft": -565.8076540739193,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -43,13 +43,13 @@
   "table": {
     "tables": [
       {
-        "name": "Client Survey",
+        "name": "ClientSurvey",
         "comment": "",
         "columns": [
           {
-            "name": "Client Key",
+            "name": "ClientID",
             "comment": "설문참여자의 고유번호",
-            "dataType": "",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -62,7 +62,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 61.02685546875,
+              "widthName": 60,
               "widthComment": 120,
               "widthDataType": 60,
               "widthDefault": 60
@@ -72,7 +72,7 @@
           {
             "name": "Name",
             "comment": "설문참여자의 이름 / 아이디로 해도 될 듯?",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 120,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "d1af5a10-3526-4758-9c19-bb1b4b4d0b7c"
@@ -97,8 +97,8 @@
           "active": false,
           "left": 180.5893,
           "top": 317.1695,
-          "zIndex": 4,
-          "widthName": 79.52392578125,
+          "zIndex": 50,
+          "widthName": 74.95361328125,
           "widthComment": 60
         },
         "visible": true,
@@ -106,12 +106,12 @@
       },
       {
         "name": "Questions",
-        "comment": "문항 모음",
+        "comment": "문항모음",
         "columns": [
           {
-            "name": "Questions Key",
-            "comment": "",
-            "dataType": "",
+            "name": "QuestionsID",
+            "comment": "설문키",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -124,7 +124,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 86.1953125,
+              "widthName": 73.60791015625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -134,7 +134,7 @@
           {
             "name": "Questions",
             "comment": "이용빈도, 개선사항, 만족도, 친절도",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -149,7 +149,7 @@
               "pfk": false,
               "widthName": 60.77294921875,
               "widthComment": 120,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "4775a67c-50e1-47f7-bd16-5a76e851fb5a"
@@ -159,7 +159,7 @@
           "active": false,
           "left": 1334.4033,
           "top": 238.7276,
-          "zIndex": 2,
+          "zIndex": 60,
           "widthName": 60.77294921875,
           "widthComment": 60
         },
@@ -171,9 +171,9 @@
         "comment": "",
         "columns": [
           {
-            "name": "Answers Key",
-            "comment": "",
-            "dataType": "",
+            "name": "AnswersID",
+            "comment": "응답키",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -186,7 +186,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 75.90576171875,
+              "widthName": 63.318359375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -195,8 +195,8 @@
           },
           {
             "name": "Answers",
-            "comment": "",
-            "dataType": "",
+            "comment": "응답들",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -211,7 +211,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "367c5744-3540-4a39-899e-b850e3758e9c"
@@ -221,7 +221,7 @@
           "active": false,
           "left": 1362.1372,
           "top": 529.7706,
-          "zIndex": 1,
+          "zIndex": 66,
           "widthName": 76.4833984375,
           "widthComment": 60
         },
@@ -233,9 +233,9 @@
         "comment": "",
         "columns": [
           {
-            "name": "Questions Key",
-            "comment": "",
-            "dataType": "",
+            "name": "QuestionsID",
+            "comment": "설문키",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -248,7 +248,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 86.1953125,
+              "widthName": 73.60791015625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -256,9 +256,9 @@
             "id": "fba0d09d-484d-4c1c-891e-0cb8ebb207e7"
           },
           {
-            "name": "Answers Key",
-            "comment": "",
-            "dataType": "",
+            "name": "AnswersID",
+            "comment": "응답키",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -271,7 +271,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 75.90576171875,
+              "widthName": 63.318359375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -279,9 +279,9 @@
             "id": "8ef336a3-1714-4961-8df2-5fb8770ba44d"
           },
           {
-            "name": "Client Key",
+            "name": "ClientID",
             "comment": "설문참여자의 고유번호",
-            "dataType": "",
+            "dataType": "int",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -294,7 +294,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 61.02685546875,
+              "widthName": 60,
               "widthComment": 120,
               "widthDataType": 60,
               "widthDefault": 60
@@ -306,7 +306,7 @@
           "active": false,
           "left": 730.0773,
           "top": 316.9459,
-          "zIndex": 3,
+          "zIndex": 58,
           "widthName": 60,
           "widthComment": 60
         },
@@ -339,7 +339,7 @@
           "columnIds": [
             "fba0d09d-484d-4c1c-891e-0cb8ebb207e7"
           ],
-          "x": 1163.2726125,
+          "x": 1150.68521015625,
           "y": 349.5709,
           "direction": "right"
         },
@@ -365,7 +365,7 @@
           "columnIds": [
             "8ef336a3-1714-4961-8df2-5fb8770ba44d"
           ],
-          "x": 1163.2726125,
+          "x": 1150.68521015625,
           "y": 414.8209,
           "direction": "right"
         },
@@ -382,7 +382,7 @@
           "columnIds": [
             "074f0147-e4a0-43c0-9de2-336943ea24f3"
           ],
-          "x": 588.61615546875,
+          "x": 616.88226875,
           "y": 372.1695,
           "direction": "right"
         },
