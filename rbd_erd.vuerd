@@ -166,7 +166,7 @@
           "active": false,
           "left": 195.2,
           "top": 100,
-          "zIndex": 76,
+          "zIndex": 1,
           "widthName": 64.20703125,
           "widthComment": 67
         },
@@ -225,10 +225,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 634.4,
-          "top": 175.2,
-          "zIndex": 78,
+          "active": true,
+          "left": 752.8,
+          "top": 424.8,
+          "zIndex": 8,
           "widthName": 82.970703125,
           "widthComment": 60
         },
@@ -288,9 +288,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 253.2,
-          "top": 354.8,
-          "zIndex": 90,
+          "left": 171.6,
+          "top": 433.2,
+          "zIndex": 5,
           "widthName": 100.1474609375,
           "widthComment": 67
         },
@@ -323,8 +323,8 @@
           "columnIds": [
             "a3741788-78aa-41ef-b004-90b7a2daaaa6"
           ],
-          "x": 452.63505859375,
-          "y": 354.8,
+          "x": 371.03505859375,
+          "y": 433.2,
           "direction": "top"
         },
         "constraintName": "fk_company_to_company_dept",
@@ -340,8 +340,8 @@
           "columnIds": [
             "4b323500-e4e1-47ae-ad26-cf81b0239b82"
           ],
-          "x": 634.4,
-          "y": 230.2,
+          "x": 752.8,
+          "y": 479.8,
           "direction": "left"
         },
         "end": {
@@ -349,8 +349,8 @@
           "columnIds": [
             "0b831bdc-d5f5-472a-93ed-48d9f785cf18"
           ],
-          "x": 652.0701171875,
-          "y": 409.8,
+          "x": 570.4701171875,
+          "y": 488.2,
           "direction": "right"
         },
         "constraintName": "fk_department_to_company_dept",
